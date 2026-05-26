@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Nassau Candy Logistics Dashboard", layout="wide")
 
 # Load dataset
-df = pd.read_csv("/content/nassau_candy_final_clean_dataset.csv")
+df = pd.read_csv("nassau_candy_final_clean_dataset.csv")
 
 # Title
 st.title("Nassau Candy Distributor Logistics Analysis")
