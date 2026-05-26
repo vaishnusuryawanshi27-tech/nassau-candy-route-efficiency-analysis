@@ -79,7 +79,8 @@ st.subheader("Delay Status Distribution")
 
 fig3 = px.pie(
     filtered_df,
-    names="Delay Status"
+    names="Delay Status",
+    hole=0.5
 )
 
 st.plotly_chart(fig3, use_container_width=True)
@@ -87,35 +88,21 @@ st.plotly_chart(fig3, use_container_width=True)
 # Detailed Table
 st.subheader("Detailed Shipment Data")
 
-# Reorder columns for display
-
-desired_columns = [
-    "Row ID",
+display_df = filtered_df[[
     "Order ID",
     "Order Date",
     "Ship Date Corrected",
     "Ship Mode",
-    "Customer ID",
-    "Country/Region",
-    "City",
-    "State/Province",
-    "Postal Code",
-    "Division",
-    "Region",
-    "Product ID",
-    "Product Name",
     "Factory",
-    "Sales",
-    "Units",
-    "Gross Profit",
-    "Cost",
+    "Region",
+    "State/Province",
     "Shipping Lead Time",
-    "Delay Status"
-]
+    "Delay Status",
+    "Sales",
+    "Gross Profit"
+]]
 
-available_columns = [col for col in desired_columns if col in filtered_df.columns]
-
-st.dataframe(filtered_df[available_columns])
+st.dataframe(display_df)
 
 # Route Creation
 filtered_df["Factory_to_State_Route"] = (
