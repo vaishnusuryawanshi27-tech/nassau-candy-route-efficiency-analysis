@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Nassau Candy Logistics Dashboard", layout="wide")
 
 # Load dataset
-df = pd.read_csv("/content/nassau_candy_final_clean_dataset.csv")
+df = pd.read_csv("nassau_candy_final_clean_dataset.csv")
 
 df["Order Date"] = pd.to_datetime(
     df["Order Date"],
