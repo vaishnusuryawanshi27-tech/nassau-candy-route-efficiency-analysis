@@ -143,6 +143,7 @@ Both dashboards were developed to support data-driven logistics decision-making,
 # Project Deliverables
 
 - Cleaned Dataset
+- google colab file (.ipynb)
 - Power BI Dashboard (.pbix)
 - Streamlit Dashboard
 - Dashboard Screenshots
