@@ -16,7 +16,7 @@ The project transforms raw shipment data into actionable logistics intelligence.
 ---
 # Live Streamlit Dashboard
 
-https://fleextazwuhjrarrk8atzt.streamlit.app/
+https://c6kbllrrssjwmbwiaghazi.streamlit.app/
 
 ---
 
