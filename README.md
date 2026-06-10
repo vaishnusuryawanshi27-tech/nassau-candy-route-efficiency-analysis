@@ -89,23 +89,56 @@ Without this visibility, logistics optimization remained reactive instead of dat
 
 # Streamlit Dashboard
 
-The Streamlit dashboard provides interactive logistics analysis with:
-- Region filters
-- Ship mode filters
-- Route-level analysis
-- Geographic bottleneck insights
+The Streamlit dashboard was developed to provide an interactive and user-friendly platform for logistics performance analysis. Users can dynamically explore shipment data through multiple analytical modules and filters.
+
+### Key Features
+
+* Region, State, and Ship Mode filtering
+* Shipping lead-time threshold analysis
+* Route efficiency benchmarking
+* Top and bottom performing route identification
+* Geographic bottleneck analysis
+* Factory shipping network visualization
+* Ship mode performance comparison
+* Route-level and state-level performance drill-down
+* Interactive charts, KPIs, and summary tables
+
+### Dashboard Modules
+
+* Logistics Performance Overview
+* Route Efficiency Analysis
+* Geographic Bottleneck Analysis
+* Ship Mode Performance Analysis
+* Executive Insights and Recommendations
 
 ---
 
 # Power BI Dashboard
 
-The Power BI dashboard includes:
-- Logistics overview
-- Geographic analysis
-- Ship mode comparison
-- Route performance drill-down
+The Power BI dashboard was designed to provide business intelligence insights for logistics optimization and operational decision-making.
+
+### Key Features
+
+* Executive logistics overview
+* Regional shipping performance monitoring
+* Route efficiency benchmarking
+* Delay and bottleneck identification
+* Ship mode performance comparison
+* Shipment volume analysis
+* Sales and profit performance tracking
+* Interactive filtering and drill-down capabilities
+
+### Dashboard Modules
+
+* Logistics Performance Overview Dashboard
+* Geographic & Bottleneck Analysis Dashboard
+* Ship Mode Performance Analysis Dashboard
+* Operational Insights & Strategic Recommendations Dashboard
 
 ---
+
+Both dashboards were developed to support data-driven logistics decision-making, improve route efficiency visibility, identify operational bottlenecks, and enhance overall shipping performance across Nassau Candy Distributor's logistics network.
+
 
 # Project Deliverables
 
